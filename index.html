@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tetris</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div id="game">
+      <button onclick="style.display='none'" id="start">Старт</button>
+      <button id="restart">Сброс</button>
+      <button id="pause">Пауза</button>
+      <div>Уровень: <span id="level">0</span></div>
+      <div>Очки: <span id="score">0</span></div>
+      <div class="main"></div>
+      <div id="game-over">Game over</div>
+      <div id="next-tetro"></div>
+    </div>
+    <div class="info">
+      <h3>Управление</h3>
+      <span class="info_2"><span class="arr">&larr;</span>&nbsp; Двигает фигуру влево</span><br><br>
+      <span class="info_2">  <span class="arr">&rarr;</span>&nbsp;Двигает фигуру вправо</span><br><br>
+      <span class="info_2">  <span class="arr">&darr;</span>&nbsp;Ускарение фигуры</span><br><br>
+      <span class="info_2">  <span class="arr">&uarr;</span>&nbsp;Поворот фигуры</span><br><br>
+      <span class="info_2"> Пробел - быстрый спуск</span><br><br>
+      <span class="info_2">На жмите на кнопку старт,<br> чтобы начать игру</span><br><br>
+      <span class="info_2">Чтобы начать игру заного нажмите<br> кнопку "Сброс", а затем кнопку "Старт"</span>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

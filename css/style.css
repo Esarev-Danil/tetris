@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #4682B4;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#game {
+  padding-top: 20px;
+  font-size: 40px;
+  width: 320px;
+  margin: auto;
+}
+
+.main {
+  width: 320px;
+  height: 620px;
+  margin: 20px auto 0;
+  background: #4169E1;
+  border: 10px solid silver;
+  font-size: 0;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #191970;
+  display: inline-block;
+}
+
+.movingCell {
+  background-color: rgba(255, 170, 0, 0.834);
+  border-radius: 3px;
+}
+
+.fixedCell {
+  background-color: green;
+  border-radius: 3px;
+}
+
+#next-tetro {
+  position: absolute;
+  top: 200px;
+  left: 300px;
+  font-size: 0;
+}
+
+#game-over {
+  font-size: 150px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.game{
+  display: flex;
+  align-items: center;
+}
+
+#start{
+  width: 100px;
+  height: 25px;
+  font-size: 20px;
+  background: silver;
+  color: blue;
+  outline: none;
+}
+
+#start:hover{
+  background: green;
+  color: silver;
+}
+
+#restart{
+  width: 130px;
+  height: 30px;
+  font-size: 20px;
+  background: silver;
+  color: blue;
+}
+
+#restart:hover{
+  background: blue;
+  color: silver;
+}
+
+#pause{
+  width: 130px;
+  height: 30px;
+  font-size: 20px;
+  background: silver;
+  color: blue;
+}
+
+#pause:hover{
+  background: orange;
+  color: black;
+}
+
+.info{
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  align-items: center;
+}
+.arr{
+ font-size: 25px;
+ align-items: center;
+}
+
+h3{
+  color: black;
+}
+
+.info_2{
+  font-weight: normal;
+  font-size: 18px;
+  color: black;
+}
